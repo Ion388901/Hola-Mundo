@@ -1,0 +1,15 @@
+<h1>Hola Mundo</h1>
+<p>La página de actualización</p>
+<h2>Actualizar productos</h2>
+<ul>
+
+		<form action="/toUpdate" method="post">
+       <label for="name">Nombre</label>
+         <input type="text" name="name" id="name" placeholder="name" value = "{{name}}" required>
+        <label for="desc">Descripción</label>
+         <input type="text" name="description" id="description" placeholder="Description" value = "{{description}}"required>
+		<label for="price">Precio</label>
+         <input type="number" name="price" id="price" placeholder="price" value = "{{price}}" required>
+         <input type ="submit" value="Update">
+        </form>
+</ul>
